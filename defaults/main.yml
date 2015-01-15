@@ -1,3 +1,4 @@
 ---
-datadog_api_key: "youshouldsetthis"
-
+# default should be empty so it fails
+# datadog_api_key: "youshouldsetthis"
+# datadog_use_dogstatsd: yes
