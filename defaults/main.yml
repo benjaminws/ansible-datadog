@@ -2,3 +2,5 @@
 # default should be empty so it fails
 # datadog_api_key: "youshouldsetthis"
 # datadog_use_dogstatsd: yes
+# datadog_monitor_nginx: yes
+# datadog_nginx_status_url: http://localhost/nginx_status

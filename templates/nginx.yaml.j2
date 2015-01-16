@@ -1,0 +1,4 @@
+init_config:
+
+instances:
+  - nginx_status_url: {{ datadog_nginx_status_url if datadog_nginx_status_url is defined else http://localhost/nginx_status/ }}
