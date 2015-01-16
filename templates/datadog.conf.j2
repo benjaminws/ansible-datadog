@@ -4,5 +4,5 @@ api_key: {{ datadog_api_key }}
 use_mount: no
 
 {% if datadog_use_dogstatsd is defined %}
-use_dogstatsd: {{ datadog_use_dogstatsd }}
+use_dogstatsd: yes
 {% endif %}
