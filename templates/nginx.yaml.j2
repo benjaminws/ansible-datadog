@@ -4,5 +4,5 @@ instances:
   {% if datadog_nginx_status_url is defined %}
   - nginx_status_url: {{ datadog_nginx_status_url }}
   {% else %}
-  - nginx_status_url: {{ http://localhost/nginx_status/ }}
+  - nginx_status_url: http://localhost/nginx_status/
   {% endif %}
