@@ -6,3 +6,7 @@ use_mount: no
 {% if datadog_use_dogstatsd is defined %}
 use_dogstatsd: yes
 {% endif %}
+
+{% if datadog_tags is defined %}
+tags: {{ datadog_tags }}
+{% endif %}
