@@ -6,3 +6,4 @@
 # datadog_nginx_status_url: http://localhost/nginx_status
 # Comma seperated list of tags
 # datadog_tags: ""
+# datadog_service_enabled: yes
