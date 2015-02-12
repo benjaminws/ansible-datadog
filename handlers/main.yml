@@ -2,4 +2,4 @@
 
 - name: restart datadog
   action: service name=datadog-agent state=restarted
-
+  when: dd_config_changed is defined and datadog_service_enabled
